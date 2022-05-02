@@ -9,21 +9,90 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <section>
-        <h2>test</h2>
-        <button>click me!</button>
-        <div><nav></nav></div>
+    <section> <!-- Nav -->
+        <nav class="navbar navbar-expand-sm bg-light">
+          <a class="navbar-brand" href="#">Reynold's Portfolio</a>
+            <ul class="nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Socials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+        </nav>
     </section>
-    <section>
-        <div></div>
-    </section>
-    <section>
-        <div></div>
-    </section>
-    <section>
-        <div>
-            <footer></footer>
+
+    <section class="container"> <!-- Header & Hero -->
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Reynold's Portfolio</h1>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Github</a>
+            <a href="#" class="btn btn-secondary my-2">Linkdin</a>
+          </p>
         </div>
+      </div>
+    </section>
+    
+
+    <section> <!-- Cards -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <a href="#" class="btn btn-primary">Live</a>
+                <a href="#" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <a href="#" class="btn btn-primary">Live</a>
+                <a href="#" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <a href="#" class="btn btn-primary">Live</a>
+                <a href="#" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section> <!-- Footer -->
+          <footer class="footer">
+            <div class="container">
+              <span class="text-muted">Thank you for viewing my portfolio.</span>
+            </div>
+          </footer>
     </section>
 </body>
 </html>
