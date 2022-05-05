@@ -1,0 +1,16 @@
+body {
+    background-color: #65cbfac4;
+}
+
+#profile-image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.card-images {
+    height: 55%;
+}
+
+
+
