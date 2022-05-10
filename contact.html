@@ -35,7 +35,7 @@
         <div class="dropdown-menu">
           <a class="dropdown-item" href="index.html">Home</a>
           <a class="dropdown-item" href="#">About</a>
-          <a class="dropdown-item" href="#">Socials</a>
+          <a class="dropdown-item" href="#">Projects</a>
           <a class="dropdown-item" href="contact.html">Contact</a>
         </div>
       </div>
@@ -47,10 +47,10 @@
 
             <ul class="nav ml-auto large-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
+                  <a class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
                   <div class="nav dropdown">
@@ -78,7 +78,7 @@
                   <a class="dropdown-item" href="index.html">Home</a>
                   <a class="dropdown-item" href="about.html">About</a>
                   <a class="dropdown-item" href="#">Projects</a>
-                  <a class="dropdown-item" href="contact.html">Contact</a>
+                  <a class="dropdown-item" href="#">Contact</a>
                 </div>
               </div>
       
@@ -86,68 +86,88 @@
   </section>
 
   <section class="container header" style="margin-top: 50px; margin-bottom: 50px;">
-    <!-- Header & Hero -->
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto text-center">
-        <a href="#"> <img src="assets/images/cropped.jpg" id="profile-image" class="rounded-circle img-fluid" /> </a>
-        <h1 class="fw-light" style="text-align: center;">Reynold's Portfolio</h1>
-        <p class="lead" style="text-align: center;">This site demonstrates my programming abilities through example
-          projects created by myself.</p>
-        <p>
-          <a href="https://github.com/R-Mack" target="_blank" class="btn btn-secondary my-2"><i class="fa-brands fa-github"></i></a>
-          <a href="https://uk.linkedin.com/" target="_blank" class="btn btn-secondary my-2"><i class="fa-brands fa-linkedin"></i></a>
-        </p>
+    <div class="row" style="margin-top: 50px; margin-bottom: 75px;">
+      <div class="col">
+        <h1 class="fw-light" style="text-align: center;">Contact Me</h1>
       </div>
     </div>
+    <!-- Header & Hero -->
+    <div class="container">
+
+  <!--  Referenced Code from "https://bbbootstrap.com/snippets/simple-contact-form-74408136" -->
+    
+  <div class="row ">
+    <div class="col-lg-7 mx-auto">
+      <div class="card mt-2 mx-auto p-4 bg-light">
+          <div class="card-body bg-light">
+     
+          <div class = "container">
+                           <form id="contact-form" role="form">
+
+          
+
+          <div class="controls">
+
+              <div class="row">
+                  <div class="col">
+                      <div class="form-group">
+                          <label for="form_name">Name:</label>
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Name is required.">
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                      <div class="form-group">
+                          <label for="form_email">Email:</label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="form_message">Message:</label>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea
+                              >
+                          </div>
+
+                      </div>
+
+
+                  <div class="col-md-12">
+                      
+                      <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                          " value="Send Message" >
+                  
+              </div>
+        
+              </div>
+
+
+      </div>
+       </form>
+      </div>
+          </div>
+
+
+  </div>
+      <!-- /.8 -->
+
+  </div>
+  <!-- /.row-->
+
+</div>
+</div>
+
+<!-- / Referenced Code End-->
+
   </section> <!-- / Header & Hero -->
 
 
-  <section>
-    <!-- Cards -->
-    <div class="container-fluid cards" style="text-align: center;">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col" style="margin-bottom: 50px">
-          <div class="card h-100" style="width: 100%; background-color: #e7def7;">
-            <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Store</h5>
-              <p class="card-text text-muted">This is a demo shop website that has a shopping cart integration.</p>
-              <a href="store.html" class="btn btn-primary">About</a>
-              <a href="https://github.com/R-Mack" target="_blank" class="btn btn-primary"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col" style="margin-bottom: 50px">
-          <div class="card h-100" style="width: 100%; background-color: #e7def7;">
-            <img
-              src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Browser Game App</h5>
-              <p class="card-text text-muted">This is a mobile game app.</p>
-              <a href="game.html" class="btn btn-primary">About</a>
-              <a href="https://github.com/R-Mack" target="_blank" class="btn btn-primary"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col" style="margin-bottom: 50px">
-          <div class="card h-100" style="width: 100%; background-color: #e7def7;">
-            <img
-              src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Social Platform</h5>
-              <p class="card-text text-muted">This is a demo social media site.</p>
-              <a href="socialplatform.html" class="btn btn-primary">About</a>
-              <a href="https://github.com/R-Mack" target="_blank" class="btn btn-primary"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> <!-- / Cards -->
+  
 
 
   

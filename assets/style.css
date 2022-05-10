@@ -1,6 +1,7 @@
-body {
-    background-color: #65cbfac4;
+.body {
+    background-color: #feffff;
 }
+
 
 #profile-image {
     width: 250px;
@@ -8,9 +9,42 @@ body {
     margin-bottom: 30px;
 }
 
+.hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
 .card-images {
     height: 55%;
 }
 
+@media (max-width: 992px) {
+    .large-nav {
+        display: none!important;
+    }
+}
+
+@media (min-width: 768px) {
+    .top-box {
+        border-right: 2px solid grey;
+        padding-right: 50px;
+      }
+    .bottom-box {
+        padding-left: 50px;
+        text-align: right;
+    }
+}
+
+@media (min-width: 992px) {
+    .small-nav {
+        display: none!important;
+    }
+}
+
+a {
+    color: black;
+}
 
 
