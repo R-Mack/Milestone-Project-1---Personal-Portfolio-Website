@@ -1,8 +1,50 @@
-.body {
+body {
     background-color: #feffff;
+    padding-top: 70px;
+    font-family: 'Nova Mono', Sans-Serif, monospace;  
+}
+
+#navbar-logo{
+    color: black;
+}
+
+.navbar {
+    background-color: #9764f7;
+}
+
+h1 {
+    text-align: center;
+}
+
+.p-header {
+    text-align: center;
+}
+
+.header-section {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.outer-card-div {
+    margin-bottom: 50px;
+}
+
+.inner-card-div {
+    width: 100%; 
+    background-color: #e7def7;"
+}
+
+.card-header-div {
+    margin-top: 50px; 
+    margin-bottom: 75px;
 }
 
 
+     
 #profile-image {
     width: 250px;
     height: 250px;
@@ -28,7 +70,7 @@
 
 @media (min-width: 768px) {
     .top-box {
-        border-right: 2px solid grey;
+        border-right: 1px solid grey;
         padding-right: 50px;
       }
     .bottom-box {
