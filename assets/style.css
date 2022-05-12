@@ -4,7 +4,7 @@ body {
     font-family: 'Nova Mono', Sans-Serif, monospace;  
 }
 
-#navbar-logo{
+.navbar-logo{
     color: black;
 }
 
@@ -51,9 +51,12 @@ h1 {
     margin-bottom: 30px;
 }
 
-.hr {
+hr {
     margin-top: 50px;
     margin-bottom: 50px;
+    size: 8; 
+    width: 90%;
+    color: grey;
 }
 
 
@@ -79,6 +82,12 @@ h1 {
     }
 }
 
+@media (max-width: 768px) {
+    .bottom-box {
+        text-align: center;
+    }
+}
+
 @media (min-width: 992px) {
     .small-nav {
         display: none!important;
@@ -87,6 +96,10 @@ h1 {
 
 a {
     color: black;
+}
+
+.image-card-top{
+    height: 75%;
 }
 
 
