@@ -28,147 +28,157 @@
 </head>
 
 <body>
-  
+
   <!-- Nav -->
   <section>
-    
+
 
     <nav class="navbar navbar-expand-sm fixed-top">
       <a class="navbar-brand navbar-logo" href="index.html">Reynold's Portfolio</a>
 
-            <ul class="nav ml-auto large-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <div class="nav dropdown">
-                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-                      Projects
-                    </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="store.html">Store</a>
-                      <a class="dropdown-item" href="game.html">Game</a>
-                      <a class="dropdown-item" href="socialplatform.html">Social Platform</a>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            
-      
-              <div class="nav ml-auto dropdown small-nav">
-                <button type="button" class="btn btn-primary dropdown-toggle small-nav-dropdown-btn" data-toggle="dropdown">
-                  <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-right">
-                  <a class="dropdown-item" href="index.html">Home</a>
-                  <a class="dropdown-item" href="about.html">About</a>
-                  <a class="dropdown-item" href="contact.html">Contact</a>
-                  <ul style="list-style: none">
-                    Projects:
-                    <li><a class="dropdown-item" href="store.html">Store</a></li>
-                    <li><a class="dropdown-item" href="game.html">Game</a></li>
-                    <li><a class="dropdown-item" href="socialplatform.html">Social</a></li>
-                  </ul>
-                  
-                </div>
-              </div>
-      
+      <ul class="nav ml-auto large-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <div class="nav dropdown">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+              Projects
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="store.html">Store</a>
+              <a class="dropdown-item" href="game.html">Game</a>
+              <a class="dropdown-item" href="socialplatform.html">Social Platform</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+
+      <div class="nav ml-auto dropdown small-nav">
+        <button type="button" class="btn btn-primary dropdown-toggle small-nav-dropdown-btn" data-toggle="dropdown">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="about.html">About</a>
+          <a class="dropdown-item" href="contact.html">Contact</a>
+          <ul style="list-style: none">
+            <li>Projects :</li>
+            <li><a class="dropdown-item" href="store.html">Store</a></li>
+            <li><a class="dropdown-item" href="game.html">Game</a></li>
+            <li><a class="dropdown-item" href="socialplatform.html">Social</a></li>
+          </ul>
+
+        </div>
+      </div>
+
     </nav>
   </section>
   <!-- / Nav -->
 
-  <section class="container header header-section">
+  <!-- Header & Hero -->
+  <header class="container header header-section">
     <div class="row card-header-div">
       <div class="col">
         <h1 class="fw-light">Contact Me</h1>
       </div>
     </div>
-    <!-- Header & Hero -->
+  </header>
+
+
+    <!-- Form -->
+    <section>
     <div class="container">
 
-  <!--  Referenced Code from "https://bbbootstrap.com/snippets/simple-contact-form-74408136" -->
-    
-  <div class="row ">
-    <div class="col-lg-7 mx-auto">
-      <div class="card mt-2 mx-auto p-4 bg-light">
-          <div class="card-body bg-light">
-     
-          <div class = "container">
-                           <form id="contact-form">
+      <!--  Referenced Code from "https://bbbootstrap.com/snippets/simple-contact-form-74408136" -->
 
-          
+      <div class="row ">
+        <div class="col-lg-7 mx-auto">
+          <div class="card mt-2 mx-auto p-4 bg-light">
+            <div class="card-body bg-light">
 
-          <div class="controls">
+              <div class="container">
+                <form id="contact-form">
 
-              <div class="row">
-                  <div class="col">
-                      <div class="form-group">
+
+
+                  <div class="controls">
+
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
                           <label for="form_name">Name:</label>
-                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Name is required.">
-                          
+                          <input id="form_name" type="text" name="name" class="form-control"
+                            placeholder="Please enter your name *" required="required" data-error="Name is required.">
+
+                        </div>
                       </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="form-group">
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
                           <label for="form_email">Email:</label>
-                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                          
+                          <input id="form_email" type="email" name="email" class="form-control"
+                            placeholder="Please enter your email *" required="required"
+                            data-error="Valid email is required.">
+
+                        </div>
                       </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="form-group">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
                           <label for="form_message">Message:</label>
-                          <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea
-                              >
-                          </div>
+                          <textarea id="form_message" name="message" class="form-control"
+                            placeholder="Write your message here." rows="4" required="required"
+                            data-error="Please, leave us a message."></textarea>
+                        </div>
 
                       </div>
 
 
-                  <div class="col-md-12">
-                      
-                      <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
-                          " value="Send Message" >
-                  
-              </div>
-        
-              </div>
+                      <div class="col-md-12">
+
+                        <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                          " value="Send Message">
+
+                      </div>
+
+                    </div>
 
 
-      </div>
-       </form>
-      </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+
           </div>
+          <!-- /.8 -->
+
+        </div>
+        <!-- /.row-->
+
+      </div>
+    </div>
+
+    <!-- / Referenced Code End-->
+
+  </section> 
+  <!-- / Form -->
 
 
-  </div>
-      <!-- /.8 -->
-
-  </div>
-  <!-- /.row-->
-
-</div>
-</div>
-
-<!-- / Referenced Code End-->
-
-  </section> <!-- / Header & Hero -->
 
 
-  
 
 
-  
 </body>
 
 </html>
