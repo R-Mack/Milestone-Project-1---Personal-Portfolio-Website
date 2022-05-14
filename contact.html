@@ -28,26 +28,11 @@
 </head>
 
 <body>
+  
+  <!-- Nav -->
   <section>
-    <!-- Nav -->
-    <nav class="navbar navbar-expand-sm fixed-top d-lg-none">
-      <a class="navbar-brand navbar-logo" href="index.html">Reynold's Portfolio</a>
-      
-      <div class="nav ml-auto dropdown ">
-        <button type="button" class="btn btn-primary dropdown-toggle btn-light" data-toggle="dropdown"
-          style="background-color: #f0f0f3;">
-          Nav
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="index.html">Home</a>
-          <a class="dropdown-item" href="#">About</a>
-          <a class="dropdown-item" href="#">Socials</a>
-          <a class="dropdown-item" href="contact.html">Contact</a>
-        </div>
-      </div>
-    </nav> <!-- / Nav -->
+    
 
-    <!-- Nav -->
     <nav class="navbar navbar-expand-sm fixed-top">
       <a class="navbar-brand navbar-logo" href="index.html">Reynold's Portfolio</a>
 
@@ -77,19 +62,26 @@
             
       
               <div class="nav ml-auto dropdown small-nav">
-                <button type="button" class="btn btn-primary dropdown-toggle btn-light" data-toggle="dropdown">
-                  Nav
+                <button type="button" class="btn btn-primary dropdown-toggle small-nav-dropdown-btn" data-toggle="dropdown">
+                  <i class="fa-solid fa-bars"></i>
                 </button>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu dropdown-menu-right">
                   <a class="dropdown-item" href="index.html">Home</a>
                   <a class="dropdown-item" href="about.html">About</a>
-                  <a class="dropdown-item" href="#">Projects</a>
                   <a class="dropdown-item" href="contact.html">Contact</a>
+                  <ul style="list-style: none">
+                    Projects:
+                    <li><a class="dropdown-item" href="store.html">Store</a></li>
+                    <li><a class="dropdown-item" href="game.html">Game</a></li>
+                    <li><a class="dropdown-item" href="socialplatform.html">Social</a></li>
+                  </ul>
+                  
                 </div>
               </div>
       
-    </nav> <!-- / Nav -->
+    </nav>
   </section>
+  <!-- / Nav -->
 
   <section class="container header header-section">
     <div class="row card-header-div">

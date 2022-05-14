@@ -102,4 +102,15 @@ a {
     height: 75%;
 }
 
+.dropdown-toggle::after {
+    display: none;
+}
 
+.small-nav-dropdown-btn {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.fa-bars {
+    color: black;
+}
