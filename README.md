@@ -1,5 +1,6 @@
 # Milestone-Project-1---Personal-Portfolio-Website
 
+This ia a link to the live Portfolio Website: [Live Version](https://r-mack.github.io/Milestone-Project-1---Personal-Portfolio-Website/)
 
 # Project Title
 
@@ -88,25 +89,36 @@ code blocks for commands
 
 * All external fonts are souced from: [Google Fonts](https://fonts.google.com/)
 
+## Referenced Code
+
+* Credit navbar code inspiration to examples presented in: [Bootstrap 4 Navs](https://getbootstrap.com/docs/4.6/components/navs/)
+* Credit project cards to code inspiration to examples presented in: [Bootstrap 4 Cards](https://getbootstrap.com/docs/4.6/components/card/)
+* Referenced Contact Form to the example in this website: [Bbbootstrap - Bootstrap 4 Simple Contact Form](https://bbbootstrap.com/snippets/simple-contact-form-74408136)
+
 ## Testing
 
-This project was sucessfully run through these two validators: 
+I tested all the code through the validators and performance testers making the suggested changes until the project was run successfully.
+
+This project was sucessfully ran through these two validators: 
 
 * [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator)
 
+<img src="./assets/images/CSSValidator.png" width="800" height="350" />
+
 * [W3 HTML Validator](https://validator.w3.org/)
 
-## Version History
+<img src="./assets/images/HTMLValidator.png" width="900" height="400" />
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+Performance was Tested using:
 
-## License
+* [Google Developer Tools - Lighthouse](https://developer.chrome.com/docs/devtools/speed/get-started/)
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+<img src="./assets/images/LighthouseValidator.png" width="800" height="500" />
+
+
+
+
+
 
 ## Contact
 
