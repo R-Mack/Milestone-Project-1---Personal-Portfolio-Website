@@ -2,9 +2,8 @@
 
 This ia a link to the live Portfolio Website: [Live Version](https://r-mack.github.io/Milestone-Project-1---Personal-Portfolio-Website/)
 
-# Project Title
+# Reynold's Portfolio Website
 
-Portfolio of my web dev projects.
 
 ## Description
 
@@ -62,25 +61,6 @@ Potential Employers want:
 * Bootstrap
 
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-
 ## Media
 
 * All external images are sourced from: [Unsplash](https://unsplash.com/)
@@ -91,13 +71,15 @@ code blocks for commands
 
 ## Referenced Code
 
-* Credit navbar code inspiration to examples presented in: [Bootstrap 4 Navs](https://getbootstrap.com/docs/4.6/components/navs/)
-* Credit project cards to code inspiration to examples presented in: [Bootstrap 4 Cards](https://getbootstrap.com/docs/4.6/components/card/)
-* Referenced Contact Form to the example in this website: [Bbbootstrap - Bootstrap 4 Simple Contact Form](https://bbbootstrap.com/snippets/simple-contact-form-74408136)
+* Credit __navbar__ code inspiration to examples presented in: [Bootstrap 4 Navs](https://getbootstrap.com/docs/4.6/components/navs/)
+* Credit __project cards__ to code inspiration to examples presented in: [Bootstrap 4 Cards](https://getbootstrap.com/docs/4.6/components/card/)
+* Referenced __Contact Form__ to the example in this website: [Bbbootstrap - Bootstrap 4 Simple Contact Form](https://bbbootstrap.com/snippets/simple-contact-form-74408136)
 
 ## Testing
 
 I tested all the code through the validators and performance testers making the suggested changes until the project was run successfully.
+
+The code was test on various screen sizes to ensure usability on many different devices.
 
 This project was sucessfully ran through these two validators: 
 
@@ -116,8 +98,42 @@ Performance was Tested using:
 <img src="./assets/images/LighthouseValidator.png" width="800" height="500" />
 
 
+## Deployment
 
+This project was developed using the [Gitpod IDE](https://gitpod.io/) environment, Git was used for version control and to push to the main branch at Github.
 
+### Deploying a Github Pages Hosted Version
+
+To deploy this project from the project's [Respository](https://github.com/R-Mack/Milestone-Project-1---Personal-Portfolio-Website) follow these steps: 
+
+1. Log into Github.
+2. From the list of repositories on the screen, select **R-Mack/Milestone-Project-1---Personal-Portfolio-Website**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+### Using Gitpod:
+
+1. A Github account. [Create a Github account here](https://github.com/)
+2. A Chrome based browser is recommended.
+3. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+4. After installation, restart the browser.
+5. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+6. Navigate to the [Project GitHub repository](https://github.com/R-Mack/Milestone-Project-1---Personal-Portfolio-Website)
+7. Click the "Gitpod" button in the top right corner of the respository.
+8. This will initiate a local gitpod workspace.
+
+### Using a Local IDE:
+
+1. Follow this link to the [Project GitHub repository](https://github.com/R-Mack/Milestone-Project-1---Personal-Portfolio-Website).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open the terminal.
+5. Change the current working directory to a required location.
+6. Type "__git clone__", and then paste the repository URL.
+7. Press Enter. Your local clone will be created.
 
 
 ## Contact
@@ -129,5 +145,9 @@ Linkedin: https://www.linkedin.com/
 
 *  [Code Institute](https://codeinstitute.net/)
 *  [Bootstrap Documentation](https://getbootstrap.com/)
-*  Darío Carrasquel: addario7777@gmail.com
 *  https://bbbootstrap.com/snippets/simple-contact-form-74408136
+*  I took inspiration for this ReadMe document from [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+
+## Disclaimer
+
+The content of this Website is for personal purposes only.
