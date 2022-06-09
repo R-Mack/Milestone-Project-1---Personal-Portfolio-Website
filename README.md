@@ -10,27 +10,27 @@ This ia a link to the live Portfolio Website: [Live Version](https://r-mack.gith
 
 1. Home: 
 
-<img src="./assets/images/home.png" width="1000" height="400" />
+<img src="./assets/images/home.png" width="1100" height="400" />
 
 2. Contact: 
 
-<img src="./assets/images/contact.png" width="1000" height="400" />
+<img src="./assets/images/contact.png" width="1100" height="400" />
 
 3. Game: 
 
-<img src="./assets/images/game.png" width="1000" height="400" />
+<img src="./assets/images/game.png" width="1100" height="400" />
 
 3. Social Media Platform: 
 
-<img src="./assets/images/social.png" width="1000" height="400" />
+<img src="./assets/images/social.png" width="1100" height="400" />
 
 3. Store: 
 
-<img src="./assets/images/store.png" width="1000" height="400" />
+<img src="./assets/images/store.png" width="1100" height="400" />
 
 3. About: 
 
-<img src="./assets/images/about.png" width="1000" height="400" />
+<img src="./assets/images/about.png" width="1100" height="400" />
 
 ## Description
 
@@ -161,6 +161,19 @@ To deploy this project from the project's [Respository](https://github.com/R-Mac
 5. Change the current working directory to a required location.
 6. Type "__git clone__", and then paste the repository URL.
 7. Press Enter. Your local clone will be created.
+
+## Forking
+
+1. Follow this link to the [Project GitHub repository](https://github.com/R-Mack/Milestone-Project-1---Personal-Portfolio-Website).
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type "git clone", and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
+## Cloning
+
 
 
 ## Contact
