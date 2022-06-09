@@ -5,6 +5,33 @@ This ia a link to the live Portfolio Website: [Live Version](https://r-mack.gith
 # Reynold's Portfolio Website
 
 
+## Preview Screenshots
+
+
+1. Home: 
+
+<img src="./assets/images/home.png" width="1000" height="400" />
+
+2. Contact: 
+
+<img src="./assets/images/contact.png" width="1000" height="400" />
+
+3. Game: 
+
+<img src="./assets/images/game.png" width="1000" height="400" />
+
+3. Social Media Platform: 
+
+<img src="./assets/images/social.png" width="1000" height="400" />
+
+3. Store: 
+
+<img src="./assets/images/store.png" width="1000" height="400" />
+
+3. About: 
+
+<img src="./assets/images/about.png" width="1000" height="400" />
+
 ## Description
 
 This website is a portfolio of my web dev projects. The user is provided with an easy-to-use example of my skill as a developer, also there is easily identifiable contact details and links to my professional social media profiles. 
