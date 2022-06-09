@@ -10,27 +10,27 @@ This ia a link to the live Portfolio Website: [Live Version](https://r-mack.gith
 
 1. Home: 
 
-<img src="./assets/images/home.png" width="1200" height="400" />
+<img src="./assets/images/home.png"  />
 
 2. Contact: 
 
-<img src="./assets/images/contact.png" width="1200" height="400" />
+<img src="./assets/images/contact.png"  />
 
 3. Game: 
 
-<img src="./assets/images/game.png" width="1200" height="400" />
+<img src="./assets/images/game.png"  />
 
 3. Social Media Platform: 
 
-<img src="./assets/images/social.png" width="1200" height="400" />
+<img src="./assets/images/social.png"  />
 
 3. Store: 
 
-<img src="./assets/images/store.png" width="1200" height="400" />
+<img src="./assets/images/store.png"  />
 
 3. About: 
 
-<img src="./assets/images/about.png" width="1200" height="400" />
+<img src="./assets/images/about.png"  />
 
 ## Description
 
