@@ -10,27 +10,27 @@ This ia a link to the live Portfolio Website: [Live Version](https://r-mack.gith
 
 1. Home: 
 
-<img src="./assets/images/home.png" width="1100" height="400" />
+<img src="./assets/images/home.png" width="1200" height="400" />
 
 2. Contact: 
 
-<img src="./assets/images/contact.png" width="1100" height="400" />
+<img src="./assets/images/contact.png" width="1200" height="400" />
 
 3. Game: 
 
-<img src="./assets/images/game.png" width="1100" height="400" />
+<img src="./assets/images/game.png" width="1200" height="400" />
 
 3. Social Media Platform: 
 
-<img src="./assets/images/social.png" width="1100" height="400" />
+<img src="./assets/images/social.png" width="1200" height="400" />
 
 3. Store: 
 
-<img src="./assets/images/store.png" width="1100" height="400" />
+<img src="./assets/images/store.png" width="1200" height="400" />
 
 3. About: 
 
-<img src="./assets/images/about.png" width="1100" height="400" />
+<img src="./assets/images/about.png" width="1200" height="400" />
 
 ## Description
 
@@ -106,9 +106,11 @@ Potential Employers want:
 
 I tested all the code through the validators and performance testers making the suggested changes until the project was run successfully.
 
-The code was test on various screen sizes to ensure usability on many different devices.
+The code was test on various screen sizes to ensure usability on many different devices. 
 
-This project was sucessfully ran through these two validators: 
+All features were tested manually to ensure user functionality.
+
+All pages of this project were sucessfully ran through these two validators: 
 
 * [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator)
 
@@ -118,7 +120,7 @@ This project was sucessfully ran through these two validators:
 
 <img src="./assets/images/HTMLValidator.png" width="900" height="400" />
 
-Performance was Tested using:
+All pages of this project were sucessfully ran through this Performance Tester:
 
 * [Google Developer Tools - Lighthouse](https://developer.chrome.com/docs/devtools/speed/get-started/)
 
@@ -162,18 +164,21 @@ To deploy this project from the project's [Respository](https://github.com/R-Mac
 6. Type "__git clone__", and then paste the repository URL.
 7. Press Enter. Your local clone will be created.
 
-## Forking
+## Cloning
 
 1. Follow this link to the [Project GitHub repository](https://github.com/R-Mack/Milestone-Project-1---Personal-Portfolio-Website).
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type "git clone", and then paste the URL you copied in Step 3.
+6. Type "__git clone__", and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
 
-## Cloning
+## Forking
 
+1. Follow this link to the [Project GitHub repository](https://github.com/R-Mack/Milestone-Project-1---Personal-Portfolio-Website).
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
 
 ## Contact
@@ -187,6 +192,7 @@ Linkedin: https://www.linkedin.com/
 *  [Bootstrap Documentation](https://getbootstrap.com/)
 *  https://bbbootstrap.com/snippets/simple-contact-form-74408136
 *  I took inspiration for this ReadMe document from [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+*  My mentor who has helped me tremendously will their skill and exptertise.
 
 ## Disclaimer
 
