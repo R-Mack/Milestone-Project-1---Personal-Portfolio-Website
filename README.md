@@ -188,7 +188,6 @@ Linkedin: https://www.linkedin.com/
 
 ## Acknowledgments
 
-*  [Code Institute](https://codeinstitute.net/)
 *  [Bootstrap Documentation](https://getbootstrap.com/)
 *  https://bbbootstrap.com/snippets/simple-contact-form-74408136
 *  I took inspiration for this ReadMe document from [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
